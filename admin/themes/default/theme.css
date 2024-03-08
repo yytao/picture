@@ -2237,20 +2237,16 @@ h2:lang(en) { text-transform:capitalize; }
   padding: 5px;
   font-weight:bold;
   min-height: 54px;
-  flex-direction: row;
-  display: flex;
-  align-items: center;
-  justify-content: start;
 }
 
 .infos ul, .errors ul, .warnings ul, .messages ul {
-  margin:1_px 0;
-  padding-left:0;
+  margin-top:18px;
 }
 
 .infos ul {color: #3C3C3C;}
 
 .eiw-icon {
+  float: left;
   font-size: 40px;
   margin-right: 10px;
 }
@@ -6228,7 +6224,10 @@ li.plupload_delete a:hover {background: url("images/cancelhover.svg")!important;
 #action_title .large, #action_author .large {padding: 12px 10px; border: 1px solid #787777a6;margin-bottom: 8px;}
 #action_add_tags .selectize-input.items.not-full.has-options, 
 #action_add_tags .selectize-input.items.not-full.has-options.focus.input-active.dropdown-active, .selectize-input.items.not-full, .selectize-input.items.full {
-	padding: 10px 10px; height: 45px; box-shadow: none; border-radius: 0px; border: 1px solid #787777a6;
+	padding: 10px 10px; box-shadow: none; border-radius: 0px; border: 1px solid #787777a6;
+  height: auto !important;
+  min-height: 45px;
+  max-height: 184px;
 }
 
 .pageNumberSelected {background-color: #ffaf58 !important; border: none !important; border-radius: 0 !important;}
@@ -7095,24 +7094,6 @@ color:#FF7B00;
   border-color: transparent transparent white transparent;
 }
 
-#usr-list-user,
-#usr-list-registered {
-  display: flex;
-}
-
-#usr-list-user:hover,
-#usr-list-registered:hover {
-  color: #F3A73B;
-  cursor: pointer;
-}
-
-#usr-list-user:hover #icon-usr-list-user{
-  display: block !important;
-}
-
-#usr-list-registered:hover #icon-usr-list-registered{
-  display: block !important;
-}
 /* Cat modify description modal */
 .desc-modal {
   display: none;
@@ -7178,7 +7159,6 @@ color:#FF7B00;
 .desc-modal-footer span {
   margin-right: 5px;
 }
-
 
 @media (max-width: 1450px) {
   .promote-text span {

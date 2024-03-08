@@ -7,7 +7,7 @@
 // +-----------------------------------------------------------------------+
 /*
 Language Name: Հայերեն (Hayerēn) [AM]
-Version: auto
+Version: 14.3.0
 Language URI: http://piwigo.org/ext/extension_view.php?eid=969
 Author: Piwigo team
 Author URI: http://piwigo.org
